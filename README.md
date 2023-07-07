@@ -34,11 +34,9 @@ if __name__ == "__main__":
 
 ## Quick Start
 
-To quickly get started with the Algorand Calculator Smart Contract, follow these steps:
-
 1. Ensure you have AlgoKit installed and run `algokit bootstrap all` in this directory.
 2. Open this directory in Visual Studio Code for a more enhanced experience.
-3. Open the smart contract at `playground/calculator/calculator.py`.
+3. Open the sample contract at `playground/hello_world/helloworld.py`.
 4. Press F5 to start the execution.
 5. This will initiate the LocalNet, build the smart contract, deploy it, and call the contract.
 
@@ -58,7 +56,7 @@ To set up the project for development, follow these instructions:
    - Visual Studio Code:
      1. Open the repository root in VS Code.
      2. Install the recommended extensions.
-     3. Press F5 (or your mapped debug key) with a contract open (default: [`playground/calculator/calculator.py`](./playground/calculator/calculator.py)). By default, it will run the `demo.py` file in the same folder as the contract using the `Demo current contract (+ LocalNet)` configuration. This will start LocalNet, build the contract, and deploy it to LocalNet.
+     3. Press F5 (or your mapped debug key) with a contract open (default: [`playground/hello_world/helloworld.py`](./playground/hello_world/helloworld.py)). By default, it will run the `demo.py` file in the same folder as the contract using the `Demo current contract (+ LocalNet)` configuration. This will start LocalNet, build the contract, and deploy it to LocalNet.
         > **Note:**
         > If you are using Windows, make sure to select the Python Interpreter before the first run:
         > 1. Open the command palette (Cmd/Ctrl + Shift + P).
